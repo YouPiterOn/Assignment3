@@ -10,5 +10,6 @@ int main() {
 	cout << crypt << endl;
 	crypt = decrypt(crypt, 1);
 	cout << crypt;
+	cin >> text;
 	return 0;
 }
