@@ -5,9 +5,9 @@ using namespace std;
 int main() {
 	char text[10] = "something";
 	char* crypt = encrypt(text, 2);
-	cout << crypt;
+	cout << crypt << endl;
 	crypt = decrypt(crypt, 1);
-	cout << crypt;
+	cout << crypt << endl;
 	crypt = decrypt(crypt, 1);
 	cout << crypt;
 	return 0;
