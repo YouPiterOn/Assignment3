@@ -110,8 +110,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>
-      </AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\VSrepo\Assignment3\Assignment3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>D:\VSrepo\Assignment3\Assignment3\CaesarCypher.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ProjectReference>
